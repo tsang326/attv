@@ -93,10 +93,14 @@ attv/__main__.py   # CLI
 
 ## TikTok Developer — URLs cho form đăng ký app
 
-Sau khi push repo lên GitHub, dùng các link sau trong form TikTok:
+**Bước 1:** Bật GitHub Pages: repo → Settings → Pages → Branch `main` → folder `/docs` → Save.
 
-- **Terms of Service:** https://github.com/tsang326/attv/blob/main/docs/terms.md
-- **Privacy Policy:** https://github.com/tsang326/attv/blob/main/docs/privacy.md
+**Bước 2:** Verify URL trên TikTok (URL prefix): `https://tsang326.github.io/attv/`
+
+**Bước 3:** Điền vào form TikTok:
+
+- **Terms of Service:** https://tsang326.github.io/attv/terms.html
+- **Privacy Policy:** https://tsang326.github.io/attv/privacy.html
 
 ## Batch & Schedule — Phase 4
 

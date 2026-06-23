@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — ATTV</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
+    a { color: #0066cc; }
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+    th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+    th { background: #f5f5f5; }
+    ul { padding-left: 1.25rem; }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">← ATTV</a></p>
+  <h1>Privacy Policy — ATTV</h1>
+  <p><strong>Last updated:</strong> June 23, 2026</p>
+
+  <h2>1. Overview</h2>
+  <p>ATTV respects your privacy. This policy describes what data the application handles when you run it locally or on your own server.</p>
+
+  <h2>2. Data We Process</h2>
+  <table>
+    <tr><th>Data</th><th>Purpose</th><th>Storage</th></tr>
+    <tr><td>URLs you submit</td><td>Fetch and summarize web content</td><td>Job database and job folders</td></tr>
+    <tr><td>Extracted text &amp; images</td><td>Generate video scripts</td><td><code>data/jobs/</code> on your machine</td></tr>
+    <tr><td>Generated videos &amp; audio</td><td>Preview and publish</td><td><code>data/jobs/</code> on your machine</td></tr>
+    <tr><td>TikTok OAuth tokens</td><td>Post to your TikTok account</td><td><code>data/tiktok_tokens.json</code></td></tr>
+  </table>
+
+  <h2>3. What We Do NOT Do</h2>
+  <ul>
+    <li>We do not sell your data to third parties.</li>
+    <li>We do not run a centralized cloud service by default — ATTV runs on your device or server.</li>
+    <li>We do not access your TikTok account except through scopes you authorize.</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>Depending on configuration, ATTV may use TikTok API, Google Gemini, Groq, Microsoft Edge TTS, and target websites you provide URLs for.</p>
+
+  <h2>5. Local Storage &amp; Security</h2>
+  <p>API keys live in your <code>.env</code> file. TikTok tokens are stored locally. You are responsible for securing your machine.</p>
+
+  <h2>6. Your Choices</h2>
+  <ul>
+    <li>Do not connect TikTok if you only want local video generation.</li>
+    <li>Delete <code>data/tiktok_tokens.json</code> to remove stored tokens.</li>
+    <li>Revoke ATTV in TikTok: Settings → Security → Apps and websites.</li>
+  </ul>
+
+  <h2>7. Children's Privacy</h2>
+  <p>ATTV is not intended for users under 13 years of age.</p>
+
+  <h2>8. Contact</h2>
+  <p>Privacy questions: <a href="https://github.com/tsang326/attv/issues">github.com/tsang326/attv/issues</a></p>
+</body>
+</html>
