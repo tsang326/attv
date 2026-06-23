@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+data/jobs/
+data/attv.db
+data/tiktok_tokens.json
+*.mp3
+*.mp4
+*.srt
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
